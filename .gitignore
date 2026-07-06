@@ -21,7 +21,6 @@ build/
 *.exe~
 
 # IDE / editor
-.vscode/
 .idea/
 *.iml
 

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Java
+*.class
+*.jar
+target/
+out/
+.gradle/
+build/
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.out
+*.exe~
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

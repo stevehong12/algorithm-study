@@ -19,6 +19,8 @@ build/
 *.exe
 *.out
 *.exe~
+.build/*
+!.build/.gitkeep
 
 # IDE / editor
 .idea/

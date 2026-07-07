@@ -1,8 +1,7 @@
 import java.util.Scanner;
-class 데이터입출력1
+class 데이터입출력3
 {
-	public static void main(String[] args)
-{
+	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
 		System.out.printf("a * 3 = %d\n", a * 3);

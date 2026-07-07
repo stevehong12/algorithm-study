@@ -101,6 +101,30 @@
             ]
         },
         {
+            "label": "Python: 실행",
+            "type": "shell",
+            "command": "\"C:\\Users\\steve\\anaconda3\\python.exe\"",
+            "args": [
+                "\"${file}\""
+            ],
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": [
+                        "/d",
+                        "/c"
+                    ]
+                }
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
             "command": "C:/Users/steve/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcc.exe",

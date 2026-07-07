@@ -1,0 +1,21 @@
+// #include <stdio.h>
+// int main(void)
+// {
+// 	int x = 7, y = 4, z;
+// 	z = y % 3 < 3 ? 2 : 1;
+// 	z = z & z >> 1;
+// 	z = x > 5 && z <= 3 ? z * x : z / x;
+// 	printf("%d\n", z);
+// 	return 0;
+// }
+
+
+
+	#include <stdio.h>
+int main(void)
+{
+	int a = 5, b = 10, c = 15, d = 30, result;
+	result = a * 3 + b > d || c - b / a <= d && 1;
+	printf("%d\n", result);
+	return 0;
+}
